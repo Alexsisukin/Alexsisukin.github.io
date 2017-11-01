@@ -1,0 +1,522 @@
+{
+  "4": {
+    "name": "Бесплатный",
+    "price": "0",
+    "desc": "3 проекта без доступа к расширенным функциям",
+    "max_sms": "0",
+    "max_email": "100",
+    "max_project": "3",
+    "discount": {
+      "1": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      },
+      "3": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      },
+      "6": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      },
+      "12": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      },
+      "24": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      },
+      "60": {
+        "one_price": "0.00",
+        "one_price_round": "0",
+        "one_price_div": "00",
+        "price": "0.00",
+        "price_round": "0",
+        "price_div": "00",
+        "percent": 0
+      }
+    },
+    "permissions": [
+      {
+        "statistic": {
+          "value": "0",
+          "desc": "Статистика и цели"
+        },
+        "image": {
+          "value": "0",
+          "desc": "Использование картинок"
+        },
+        "pay": {
+          "value": "0",
+          "desc": "Прием оплаты"
+        },
+        "openLink": {
+          "value": "0",
+          "desc": "Использование ссылок"
+        },
+        "copyright": {
+          "value": "1",
+          "desc": "Отсутствие рекламы"
+        },
+        "html_code": {
+          "value": "0",
+          "desc": "Свой код"
+        },
+        "pay_pack": {
+          "value": "0",
+          "desc": "возможно докупить"
+        },
+        "clone": {
+          "value": "0",
+          "desc": "Клонирование проектов"
+        },
+        "support": {
+          "value": "0",
+          "desc": "Лайвчат саппорт"
+        }
+      }
+    ]
+  },
+  "5": {
+    "name": "Базовый",
+    "price": "3",
+    "desc": "3 проекта + расширенные функции",
+    "max_sms": "0",
+    "max_email": "300",
+    "max_project": "3",
+    "discount": {
+      "1": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "3.00",
+        "price_round": "3",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "3": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "9.00",
+        "price_round": "9",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "6": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "18.00",
+        "price_round": "18",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "12": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "36.00",
+        "price_round": "36",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "24": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "72.00",
+        "price_round": "72",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "60": {
+        "one_price": "3.00",
+        "one_price_round": "3",
+        "one_price_div": "00",
+        "price": "180.00",
+        "price_round": "180",
+        "price_div": "00",
+        "percent": "0"
+      }
+    },
+    "permissions": [
+      {
+        "statistic": {
+          "value": "1",
+          "desc": "Статистика и цели"
+        },
+        "image": {
+          "value": "1",
+          "desc": "Использование картинок"
+        },
+        "pay": {
+          "value": "1",
+          "desc": "Прием оплаты"
+        },
+        "openLink": {
+          "value": "1",
+          "desc": "Использование ссылок"
+        },
+        "copyright": {
+          "value": "0",
+          "desc": "Отсутствие рекламы"
+        },
+        "html_code": {
+          "value": "1",
+          "desc": "Свой код"
+        },
+        "pay_pack": {
+          "value": "1",
+          "desc": "возможно докупить"
+        },
+        "clone": {
+          "value": "1",
+          "desc": "Клонирование проектов"
+        },
+        "support": {
+          "value": "0",
+          "desc": "Лайвчат саппорт"
+        }
+      }
+    ]
+  },
+  "6": {
+    "name": "Стандарт",
+    "price": "8",
+    "desc": "10 проектов + расширенные функции",
+    "max_sms": "10",
+    "max_email": "1 000",
+    "max_project": "10",
+    "discount": {
+      "1": {
+        "one_price": "8.00",
+        "one_price_round": "8",
+        "one_price_div": "00",
+        "price": "8.00",
+        "price_round": "8",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "3": {
+        "one_price": "7.20",
+        "one_price_round": "7",
+        "one_price_div": "20",
+        "price": "21.60",
+        "price_round": "21",
+        "price_div": "60",
+        "percent": "10"
+      },
+      "6": {
+        "one_price": "6.40",
+        "one_price_round": "6",
+        "one_price_div": "40",
+        "price": "38.40",
+        "price_round": "38",
+        "price_div": "40",
+        "percent": "20"
+      },
+      "12": {
+        "one_price": "5.60",
+        "one_price_round": "5",
+        "one_price_div": "60",
+        "price": "67.20",
+        "price_round": "67",
+        "price_div": "20",
+        "percent": "30"
+      },
+      "24": {
+        "one_price": "4.80",
+        "one_price_round": "4",
+        "one_price_div": "80",
+        "price": "115.20",
+        "price_round": "115",
+        "price_div": "20",
+        "percent": "40"
+      },
+      "60": {
+        "one_price": "4.00",
+        "one_price_round": "4",
+        "one_price_div": "00",
+        "price": "240.00",
+        "price_round": "240",
+        "price_div": "00",
+        "percent": "50"
+      }
+    },
+    "permissions": [
+      {
+        "statistic": {
+          "value": "1",
+          "desc": "Статистика и цели"
+        },
+        "image": {
+          "value": "1",
+          "desc": "Использование картинок"
+        },
+        "pay": {
+          "value": "1",
+          "desc": "Прием оплаты"
+        },
+        "openLink": {
+          "value": "1",
+          "desc": "Использование ссылок"
+        },
+        "copyright": {
+          "value": "0",
+          "desc": "Отсутствие рекламы"
+        },
+        "html_code": {
+          "value": "1",
+          "desc": "Свой код"
+        },
+        "pay_pack": {
+          "value": "1",
+          "desc": "возможно докупить"
+        },
+        "clone": {
+          "value": "1",
+          "desc": "Клонирование проектов"
+        },
+        "support": {
+          "value": "1",
+          "desc": "Лайвчат саппорт"
+        }
+      }
+    ]
+  },
+  "7": {
+    "name": "Премиум",
+    "price": "20",
+    "desc": "30 проектов + расширенные функции",
+    "max_sms": "30",
+    "max_email": "3 000",
+    "max_project": "30",
+    "discount": {
+      "1": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "20.00",
+        "price_round": "20",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "3": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "60.00",
+        "price_round": "60",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "6": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "120.00",
+        "price_round": "120",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "12": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "240.00",
+        "price_round": "240",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "24": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "480.00",
+        "price_round": "480",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "60": {
+        "one_price": "20.00",
+        "one_price_round": "20",
+        "one_price_div": "00",
+        "price": "1200.00",
+        "price_round": "1200",
+        "price_div": "00",
+        "percent": "0"
+      }
+    },
+    "permissions": [
+      {
+        "statistic": {
+          "value": "1",
+          "desc": "Статистика и цели"
+        },
+        "image": {
+          "value": "1",
+          "desc": "Использование картинок"
+        },
+        "pay": {
+          "value": "1",
+          "desc": "Прием оплаты"
+        },
+        "openLink": {
+          "value": "1",
+          "desc": "Использование ссылок"
+        },
+        "copyright": {
+          "value": "0",
+          "desc": "Отсутствие рекламы"
+        },
+        "html_code": {
+          "value": "1",
+          "desc": "Свой код"
+        },
+        "pay_pack": {
+          "value": "1",
+          "desc": "возможно докупить"
+        },
+        "clone": {
+          "value": "1",
+          "desc": "Клонирование проектов"
+        },
+        "support": {
+          "value": "1",
+          "desc": "Лайвчат саппорт"
+        }
+      }
+    ]
+  },
+  "8": {
+    "name": "ПРО",
+    "price": "59",
+    "desc": "Неограниченное количество проектов + расширенные функции",
+    "max_sms": "100",
+    "max_email": "10 000",
+    "max_project": "999999999",
+    "discount": {
+      "1": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "59.00",
+        "price_round": "59",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "3": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "177.00",
+        "price_round": "177",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "6": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "354.00",
+        "price_round": "354",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "12": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "708.00",
+        "price_round": "708",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "24": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "1416.00",
+        "price_round": "1416",
+        "price_div": "00",
+        "percent": "0"
+      },
+      "60": {
+        "one_price": "59.00",
+        "one_price_round": "59",
+        "one_price_div": "00",
+        "price": "3540.00",
+        "price_round": "3540",
+        "price_div": "00",
+        "percent": "0"
+      }
+    },
+    "permissions": [
+      {
+        "statistic": {
+          "value": "1",
+          "desc": "Статистика и цели"
+        },
+        "image": {
+          "value": "1",
+          "desc": "Использование картинок"
+        },
+        "pay": {
+          "value": "1",
+          "desc": "Прием оплаты"
+        },
+        "openLink": {
+          "value": "1",
+          "desc": "Использование ссылок"
+        },
+        "copyright": {
+          "value": "0",
+          "desc": "Отсутствие рекламы"
+        },
+        "html_code": {
+          "value": "1",
+          "desc": "Свой код"
+        },
+        "pay_pack": {
+          "value": "1",
+          "desc": "возможно докупить"
+        },
+        "clone": {
+          "value": "1",
+          "desc": "Клонирование проектов"
+        },
+        "support": {
+          "value": "1",
+          "desc": "Лайвчат саппорт"
+        }
+      }
+    ]
+  }
+}
