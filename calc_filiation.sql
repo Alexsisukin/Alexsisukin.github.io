@@ -1,3 +1,4 @@
+DROP TABLE calc_filiation;
 --
 -- Структура таблицы `calc_filiation`
 --
@@ -12,6 +13,26 @@ CREATE TABLE `calc_filiation` (
   `street` varchar(255) DEFAULT NULL,
   `house` varchar(255) DEFAULT NULL,
   `formatted_address` text NOT NULL,
-  `lat` float NOT NULL,
-  `lng` float NOT NULL
+  `lat` double NOT NULL,
+  `lng` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Индексы сохранённых таблиц
+--
+
+--
+-- Индексы таблицы `calc_filiation`
+--
+ALTER TABLE `calc_filiation`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `calc_filiation`
+--
+ALTER TABLE `calc_filiation`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
