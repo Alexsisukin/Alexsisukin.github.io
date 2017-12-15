@@ -1,4 +1,4 @@
-DROP TABLE calc_filiation;
+DROP TABLE IF EXISTS calc_filiation;
 --
 -- Структура таблицы `calc_filiation`
 --
