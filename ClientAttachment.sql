@@ -1,0 +1,9 @@
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '1', 'ClientAttachment', 'Прикрепление файлов c формы', '0');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '2', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '3', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '4', 'ClientAttachment', 'Прикрепление файлов c формы', '0');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '5', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '6', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '7', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '8', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
+INSERT INTO `tariff_permission` (`id`, `tariff_id`, `permission`, `description`, `status_activ`) VALUES (NULL, '9', 'ClientAttachment', 'Прикрепление файлов c формы', '1');
