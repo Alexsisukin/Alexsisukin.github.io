@@ -165,11 +165,9 @@ $('#' + fields92125.result.pre_button).on('click', 'button', function () {
         var man = 0;
         if (home_checkbox) {
             home = ($('#total-12').find('div.js-result-sum-value').text().replace(/ +/g, ""))/1;
-            console.log(home);
         }
         if (man_checkbox) {
             man = ($('#total-13').find('div.js-result-sum-value').text().replace(/ +/g, ""))/1;
-            console.log(man);
         }
         if ((man + home) > 0) {
             removeAlertPresBotton64();
