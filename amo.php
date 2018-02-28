@@ -119,11 +119,13 @@ $_POST = [
             ],
         'other' =>
             [
-                'element_type' => '2',
-                'complete_till_at' => time() + 60 * 60 * 24,
-                'task_type' => '1',
-                'text' => 'описание задачи',
-                'responsible_user_id' => '2198434',
+                [
+                    'element_type' => '2',
+                    'complete_till_at' => time() + 60 * 60 * 24,
+                    'task_type' => '1',
+                    'text' => 'описание задачи',
+                    'responsible_user_id' => '2198434',
+                ]
             ]
     ],
     'lists' => [
