@@ -4,79 +4,46 @@ $row = [
      * lead базовый набор который нужен
      */
     'lead' => [
-        [
-            /** Обязательное */
-        'name' => 'lead name',
-        'is_id_name'=>true, // bool true/false
-        'pipeline_id' => '1000792',
-        'status_id' => '18505567',
-        'responsible_user_id' => 'id отвественного юзера',
-        'sale' => '121',
-        'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
-        'custom_fields' => [
+        '1000792' =>
             [
-                'id' => '411385',
-                'values' => [
-                    'value' => 'произвольное значение которое надо вписать в crm',
-                    // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
-                ]
-            ]
-        ]
-        ],
-        [
-         /** Обязательное */
-        'name' => 'lead name',
-        'is_id_name'=>true, // bool true/false
-        'pipeline_id' => '1000792',
-        'status_id' => '18505567',
-        'responsible_user_id' => 'id отвественного юзера',
-        'sale' => '121',
-        'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
-        'custom_fields' => [
-            [
-                'id' => '411385',
-                'values' => [
-                    'value' => 'произвольное значение которое надо вписать в crm',
-                    // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
-                ]
-            ]
-        ]   
-            ]
-    ],
-    'contact' => [
-        /** обязательный */
-        'name' => 'имя контакта',
-        'responsible_user_id' => 'id пользователя ответственного за контакт',
-        'tags' => 'Передавать массивом теги которые хотят прикреплять',
-        'find' => [
-            'email' => '',
-            'phone' => ''
-        ],
-        'custom_fields' => [
-            [
-                'id' => '407763',
-                'type' => 'email', // только системные могут быть email phone все остальные other
-                'values' => [
+                /** Обязательное */
+                'name' => 'lead name',
+                'is_id_name' => true, // bool true/false
+                'pipeline_id' => '1000792',
+                'status_id' => '18505567',
+                'responsible_user_id' => 'id отвественного юзера',
+                'sale' => '121',
+                'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
+                'custom_fields' => [
                     [
-                        'value' => 'systut30@gmail.com',
-                        //'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)',
-                        'enum' => '873483'
+                        'id' => '411385',
+                        'values' => [
+                            'value' => 'произвольное значение которое надо вписать в crm',
+                            // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
+                        ]
                     ]
                 ]
             ],
+        '1000793' =>
             [
-                'id' => '407761',
-                'type' => 'email', // только системные могут быть email phone все остальные other
-                'values' => [
-
+                /** Обязательное */
+                'name' => 'lead name',
+                'is_id_name' => true, // bool true/false
+                'pipeline_id' => '1000793',
+                'status_id' => '18505567',
+                'responsible_user_id' => 'id отвественного юзера',
+                'sale' => '121',
+                'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
+                'custom_fields' => [
                     [
-                        'value' => '89604486065',
-                        //'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)',
-                        'enum' => '873471'
+                        'id' => '411385',
+                        'values' => [
+                            'value' => 'произвольное значение которое надо вписать в crm',
+                            // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
+                        ]
                     ]
                 ]
             ]
-        ]
     ],
     'company' => [
         /** Обязательный */
@@ -98,12 +65,38 @@ $row = [
         ]
     ],
     'task' => [
-        'element_type' => '2',
-        'complete_till_at' => time() + 60 * 60 * 24,
-        'task_type' => '1',
-        'text' => 'описание задачи',
-        'responsible_user_id' => 'dwdwdw',
-
+        'leads' => [
+            '1000792' => [
+                'element_type' => '2',
+                'complete_till_at' => time() + 60 * 60 * 24,
+                'task_type' => '1',
+                'text' => 'описание задачи',
+                'responsible_user_id' => 'dwdwdw',
+            ],
+            '1000793' => [
+                'element_type' => '2',
+                'complete_till_at' => time() + 60 * 60 * 24,
+                'task_type' => '1',
+                'text' => 'описание задачи',
+                'responsible_user_id' => 'dwdwdw',
+            ],
+        ],
+        'contact' =>
+            [
+                'element_type' => '2',
+                'complete_till_at' => time() + 60 * 60 * 24,
+                'task_type' => '1',
+                'text' => 'описание задачи',
+                'responsible_user_id' => 'dwdwdw',
+            ],
+        'other' =>
+            [
+                'element_type' => '2',
+                'complete_till_at' => time() + 60 * 60 * 24,
+                'task_type' => '1',
+                'text' => 'описание задачи',
+                'responsible_user_id' => 'dwdwdw',
+            ]
     ],
     'lists' => [
         [
