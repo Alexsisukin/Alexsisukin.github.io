@@ -1,9 +1,27 @@
 <?php
-$row = [
+$_POST = [
     /**
      * lead базовый набор который нужен
      */
     'leads' => [
+        '1000012' =>
+            [
+                /** Обязательное */
+                'name' => 'Лид вервой воронки',
+                'is_id_name' => true, // bool true/false
+                'pipeline_id' => '1000012',
+                'status_id' => '18498634',
+                'responsible_user_id' => '2198434',
+                'sale' => '500',
+                'custom_fields' => [
+                    [
+                        'id' => '438407',
+                        'values' => [
+                            'value' => 'произвольное значение которое надо вписать в crm',
+                        ]
+                    ]
+                ]
+            ],
         '1000792' =>
             [
                 /** Обязательное */
@@ -11,35 +29,13 @@ $row = [
                 'is_id_name' => true, // bool true/false
                 'pipeline_id' => '1000792',
                 'status_id' => '18505567',
-                'responsible_user_id' => 'id отвественного юзера',
+                'responsible_user_id' => '2198434',
                 'sale' => '121',
-                'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
                 'custom_fields' => [
                     [
-                        'id' => '411385',
+                        'id' => '438407',
                         'values' => [
-                            'value' => 'произвольное значение которое надо вписать в crm',
-                            // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
-                        ]
-                    ]
-                ]
-            ],
-        '1000793' =>
-            [
-                /** Обязательное */
-                'name' => 'lead name',
-                'is_id_name' => true, // bool true/false
-                'pipeline_id' => '1000793',
-                'status_id' => '18505567',
-                'responsible_user_id' => 'id отвественного юзера',
-                'sale' => '121',
-                'tags' => 'Передавать массивом теги которые хотят прикреплять к сделки',
-                'custom_fields' => [
-                    [
-                        'id' => '411385',
-                        'values' => [
-                            'value' => 'произвольное значение которое надо вписать в crm',
-                            // 'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)'
+                            'value' => 'Какойто текст просто проверка',
                         ]
                     ]
                 ]
@@ -47,18 +43,50 @@ $row = [
     ],
     'company' => [
         /** Обязательный */
-        'name' => 'имя',
-        'responsible_user_id' => 'id пользователя ответственного за Компанию',
-        'tags' => 'Передавать массивом теги которые хотят прикреплять',
-
+        'name' => 'Просто имя компании',
+        'responsible_user_id' => '2198434',
         'custom_fields' => [
             [
                 'id' => '407761',
                 'values' => [
                     [
                         'value' => '89604486066',
-                        //'subtype' => ' судя документации у них там address_line_1 country (как полный список получить не искал еще)',
                         'enum' => '873471'
+                    ]
+                ]
+            ],
+            [
+                'id' => '407763',
+                'values' => [
+                    [
+                        'value' => 'systut@gmail.com',
+                        'enum' => '873483'
+                    ]
+                ]
+            ]
+        ]
+    ],
+    'contact' => [
+        'name' => 'Контакт какой-то',
+        'responsible_user_id' => '2198434',
+        'custom_fields' => [
+            [
+                'id' => '407761',
+                'type' => 'phone',
+                'values' => [
+                    [
+                        'value' => '89604486066',
+                        'enum' => '873471'
+                    ]
+                ]
+            ],
+            [
+                'id' => '407763',
+                'type' => 'email',
+                'values' => [
+                    [
+                        'value' => 'systut@gmail.com',
+                        'enum' => '873483'
                     ]
                 ]
             ]
@@ -66,19 +94,19 @@ $row = [
     ],
     'task' => [
         'leads' => [
+            '1000012' => [
+                'element_type' => '2',
+                'complete_till_at' => time() + 60 * 60 * 24,
+                'task_type' => '1',
+                'text' => 'Задача для 1000012',
+                'responsible_user_id' => '2198434',
+            ],
             '1000792' => [
                 'element_type' => '2',
                 'complete_till_at' => time() + 60 * 60 * 24,
                 'task_type' => '1',
-                'text' => 'описание задачи',
-                'responsible_user_id' => 'dwdwdw',
-            ],
-            '1000793' => [
-                'element_type' => '2',
-                'complete_till_at' => time() + 60 * 60 * 24,
-                'task_type' => '1',
-                'text' => 'описание задачи',
-                'responsible_user_id' => 'dwdwdw',
+                'text' => 'Задача для 1000792',
+                'responsible_user_id' => '2198434',
             ],
         ],
         'contact' =>
@@ -86,8 +114,8 @@ $row = [
                 'element_type' => '2',
                 'complete_till_at' => time() + 60 * 60 * 24,
                 'task_type' => '1',
-                'text' => 'описание задачи',
-                'responsible_user_id' => 'dwdwdw',
+                'text' => 'Задача для контакта',
+                'responsible_user_id' => '2198434',
             ],
         'other' =>
             [
@@ -95,7 +123,7 @@ $row = [
                 'complete_till_at' => time() + 60 * 60 * 24,
                 'task_type' => '1',
                 'text' => 'описание задачи',
-                'responsible_user_id' => 'dwdwdw',
+                'responsible_user_id' => '2198434',
             ]
     ],
     'lists' => [
@@ -116,9 +144,7 @@ $row = [
             ]
         ],
         [
-            /*...*/
+
         ]
     ]
-
-
 ];
